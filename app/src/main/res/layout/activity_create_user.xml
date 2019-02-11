@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                    android:id="@+id/haveAccountButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="I already have an account"
+                    android:onClick="clear"
+                    android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/characterNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Email Address:" />
+
+            <EditText
+                android:id="@+id/handleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="sir_catsworth@meow.com"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="8dp" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Full name :" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ems="10"
+                android:hint="Fluffy McFlufferton III"
+                android:inputType="textPersonName"
+                android:paddingLeft="8dp" />
+
+            <TextView
+                android:id="@+id/countryTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Country of Origin:" />
+
+            <EditText
+                android:id="@+id/countryEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Furtopia"
+                android:inputType="textPersonName"
+                android:paddingLeft="8dp" />
+
+            <TextView
+                android:id="@+id/passwordTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="8dp"
+                android:text="Password (at least 6 characters):" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="••••••"
+                android:inputType="textPassword"
+                android:paddingLeft="8dp" />
+
+            <TextView
+                android:id="@+id/pictureTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:text="Upload a picture (optional):" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="225dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/default_profile"
+                android:onClick="onChangePhotoClicked"/>
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="save"
+                android:paddingTop="8dp"
+                android:text="Save" />
+
+    </LinearLayout>
+</ScrollView>

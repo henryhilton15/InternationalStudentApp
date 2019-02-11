@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">International Student App</string>
+
+    <string-array name="ui_profile_photo_picker_items">
+        <item>Take picture from camera</item>
+    </string-array>
+
+</resources>
+
+

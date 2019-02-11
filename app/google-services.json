@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "926011330672",
+    "firebase_url": "https://international-student-app.firebaseio.com",
+    "project_id": "international-student-app",
+    "storage_bucket": "international-student-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926011330672:android:b4191f71f8be1ac6",
+        "android_client_info": {
+          "package_name": "com.henryhilton.internationalstudentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926011330672-jd7h518dc1mi60occ7kphg97kjmu99am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.henryhilton.internationalstudentapp",
+            "certificate_hash": "c11bb4212df381c84e66576aae76e07303f34203"
+          }
+        },
+        {
+          "client_id": "926011330672-eecor3j0d3qiddsq2psp1p7rsqi1f4ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.henryhilton.internationalstudentapp",
+            "certificate_hash": "93eb4657ea4efcc44637bd7aed3c82187cb3aa63"
+          }
+        },
+        {
+          "client_id": "926011330672-rbclibmvi0qmftlrh2d1ld60bnld9fcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqKeNrje_9BZ9YNBM0IV4V1DdNppBUoFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926011330672-rbclibmvi0qmftlrh2d1ld60bnld9fcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
